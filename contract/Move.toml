@@ -1,0 +1,11 @@
+[package]
+name = "agrichain"
+version = "0.1.0"
+license = "MIT"
+authors = ["Your Name"]
+
+[addresses]
+agrichain = "0xf273b1e243a16ce1c331924890ba21cbbc62ef5823b05c9c77ba0d121da71be3"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
